@@ -1,0 +1,58 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "id": "my-tests;",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7787024865,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user enter url \"https://www.google.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://www.google.com",
+                  "offset": 16
+                }
+              ],
+              "location": "MySteps.user_enter_url(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 72432,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "enter keyword \"github\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "github",
+                  "offset": 15
+                }
+              ],
+              "location": "MySteps.enter_keyword(String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "My Tests",
+    "description": "",
+    "id": "my-tests",
+    "keyword": "Feature",
+    "uri": "feature/MyTest.feature"
+  }
+]
