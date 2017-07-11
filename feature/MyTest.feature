@@ -1,5 +1,5 @@
 Feature: My Tests
 
   Scenario:
-    Given user enter url "https://www.google.com"
-    And enter keyword "github"
+    Given user enter url "http://qaerp.franciscanecare.net"
+    And enter username "admin" and password "Admin#franciscan"

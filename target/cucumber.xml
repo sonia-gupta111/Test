@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="7.787097">
-<testcase classname="My Tests" name="" time="7.787097">
-<system-out><![CDATA[Given user enter url "https://www.google.com"...............................passed
-And enter keyword "github"..................................................passed
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="7.293324">
+<testcase classname="My Tests" name="" time="7.293324">
+<system-out><![CDATA[Given user enter url "http://qaerp.franciscanecare.net".....................passed
+And enter username "admin" and password "Admin#franciscan"..................passed
 ]]></system-out>
 </testcase>
 </testsuite>

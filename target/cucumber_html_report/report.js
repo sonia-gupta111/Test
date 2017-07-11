@@ -16,38 +16,42 @@ formatter.scenario({
 });
 formatter.step({
   "line": 4,
-  "name": "user enter url \"https://www.google.com\"",
+  "name": "user enter url \"http://qaerp.franciscanecare.net\"",
   "keyword": "Given "
 });
 formatter.step({
   "line": 5,
-  "name": "enter keyword \"github\"",
+  "name": "enter username \"admin\" and password \"Admin#franciscan\"",
   "keyword": "And "
 });
 formatter.match({
   "arguments": [
     {
-      "val": "https://www.google.com",
+      "val": "http://qaerp.franciscanecare.net",
       "offset": 16
     }
   ],
   "location": "MySteps.user_enter_url(String)"
 });
 formatter.result({
-  "duration": 7787024865,
+  "duration": 7116215122,
   "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "github",
-      "offset": 15
+      "val": "admin",
+      "offset": 16
+    },
+    {
+      "val": "Admin#franciscan",
+      "offset": 37
     }
   ],
-  "location": "MySteps.enter_keyword(String)"
+  "location": "MySteps.enter_username_and_password(String,String)"
 });
 formatter.result({
-  "duration": 72432,
+  "duration": 177109105,
   "status": "passed"
 });
 });
