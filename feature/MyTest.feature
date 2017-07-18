@@ -4,3 +4,4 @@ Feature: My Tests
     Given user enter url "http://qaerp.franciscanecare.net"
     And enter username "admin" and password "Admin#franciscan"
     And click signin
+    And click fee manager
