@@ -25,4 +25,10 @@ public class MySteps {
     public void click_signin() throws Throwable {
        dr.findElement(By.id("btnLogin")).click();
     }
+
+    @Given("^click fee manager$")
+    public void click_fee_manager() throws Throwable {
+
+    }
+
 }
