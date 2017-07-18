@@ -13,12 +13,16 @@ public class MySteps {
      System.setProperty("webdriver.chrome.driver", "D:/selenium/chrome/chromedriver.exe");
      dr= new ChromeDriver();
      dr.get(arg1);
-     /////aaa
     }
 
     @Given("^enter username \"([^\"]*)\" and password \"([^\"]*)\"$")
     public void enter_username_and_password(String arg1, String arg2) throws Throwable {
        dr.findElement(By.id("txtUserName")).sendKeys(arg1);
        dr.findElement(By.id("txtPassword")).sendKeys(arg2);
+    }
+
+    @Given("^click signin$")
+    public void click_signin() throws Throwable {
+       dr.findElement(By.id("btnLogin")).click();
     }
 }
